@@ -1,0 +1,9 @@
+---
+title: "My Educational and Professional Background"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
