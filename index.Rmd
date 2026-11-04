@@ -9,6 +9,8 @@ output:
 Hi there! My name is Saavarni.
 I'm a first year MS Biostatistics, Public Health Data Science student at Columbia University, Mailman School of Public Health. I graduated from University of California, Riverside with a BS in Statistics and a Minor in Medical Health and Humanities in 2025. 
 
+<img src = "images/DSCF6078.JPEG" style= "width:25%">
+
 # Lets connect on LinkedIn!
 [LinkedIn](https://www.linkedin.com/in/srisai-saavarni-chilukuri/)
 
