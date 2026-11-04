@@ -6,3 +6,36 @@ output:
     toc_float: true
 ---
 
+# Education 
+### Columbia University
+#### Master of Science in Biostatistics, Public Health Data Science
+
+### University of California, Riverside
+#### Bachelor of Science in Pure Statistics 
+
+# Professional Experience
+
+### UC Irvine Summer Institute in Biostatistics and Data Science 
+#### Student Researcher
+
+* Analyzed de-identified clinical data from 184,000+ Alzheimer’s and Down Syndrome patients in R, handling sensitive patient information securely to directly inform research roadmaps
+* Applied advanced linear regression for longitudinal data analysis to model change in patient behavior over a
+6.5-year period
+* Synthesized findings for both researchers and general audiences, presenting to 100+ people to support
+evidence-based decisions
+
+### California Department of Public Health 
+#### Health Equity Intern
+
+* Utilized SQL and Excel (pivot tables, macros, VLOOKUPs) to analyze 1,700+ entries and recommend process
+improvements for reporting and collection of vaccine data across 20 facilities
+* Analyzed large datasets and communicated findings with ArcGIS visualization tools, driving public health policy
+recommendations and decision making affecting 50,000+ residents in San Bernardino County
+* Optimized data pipelines for 5 projects and delivered weekly financial and budgeting insights to 20+ stakeholders
+while upholding regulatory standards and policies
+
+
+
+
+
+

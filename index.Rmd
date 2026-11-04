@@ -6,12 +6,12 @@ output:
     toc_float: true
 ---
 
-## Hi there! My name is Saavarni.
-I'm a first year MS Biostatistics, Public Health Data Science student at Columbia University, Mailman School of Public Health. 
+Hi there! My name is Saavarni.
+I'm a first year MS Biostatistics, Public Health Data Science student at Columbia University, Mailman School of Public Health. I graduated from University of California, Riverside with a BS in Statistics and a Minor in Medical Health and Humanities in 2025. 
 
 # Lets connect on LinkedIn!
 [LinkedIn](https://www.linkedin.com/in/srisai-saavarni-chilukuri/)
 
-## Link to my Background
+# Link to my Background
 
 [About](About.html)
