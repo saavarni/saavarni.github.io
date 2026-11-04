@@ -14,4 +14,4 @@ I'm a first year MS Biostatistics, Public Health Data Science student at Columbi
 
 ## Link to my Background
 
-[Education](Education.html)
+[About](About.html)
