@@ -36,7 +36,6 @@ noaa_sample =
   ny_noaa |> 
   filter(year >= 2000) |>     
   slice_sample(n = 1000)    
-summary(noaa_sample)
 ```
 
 # Plotly Plots
@@ -48,4 +47,18 @@ noaa_sample |>
     alpha = .5, type = "scatter", mode = "markers")
 ```
 
+```{r}
+noaa_sample |> 
+  mutate(month = fct_reorder(month.abb[month], tmax)) |> 
+  plot_ly(y = ~tmax, color = ~month, type = "box", colors = "viridis")
+```
+
+```{r}
+noaa_sample |> 
+  filter(snow > 0) |> 
+  mutate(month = month.abb[month]) |> 
+  count(month) |> 
+  mutate(month = fct_reorder(month, n)) |> 
+  plot_ly(x = ~month, y = ~n, color = ~month, type = "bar", colors = "viridis")
+```
 
