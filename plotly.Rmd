@@ -1,0 +1,51 @@
+---
+title: "Plotly"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Question 2
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+data("ny_noaa")
+```
+
+```{r}
+# cleaning
+ny_noaa <- 
+  ny_noaa |> 
+  drop_na() |>
+  mutate(
+    year = year(date),
+    month = month(date),
+    day = day(date),
+    tmax = as.numeric(tmax) / 10,
+    tmin = as.numeric(tmin) / 10, 
+    prcp = prcp / 10
+  )
+
+# sampling 
+set.seed(7)
+noaa_sample = 
+  ny_noaa |> 
+  filter(year >= 2000) |>     
+  slice_sample(n = 1000)    
+summary(noaa_sample)
+```
+
+# Plotly Plots
+```{r}
+noaa_sample |> 
+  mutate(text_label = str_c("Precip: ", prcp, " mm\nMonth: ", month)) |> 
+  plot_ly(
+    x = ~tmin, y = ~tmax, color = ~month, text = ~text_label,
+    alpha = .5, type = "scatter", mode = "markers")
+```
+
+
